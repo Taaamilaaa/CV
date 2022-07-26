@@ -1,0 +1,169 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Harmattan', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    margin: 0 80px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h3 {
+    background-color: #30404b3b;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.hero {
+    background-color: #30404b;
+}
+
+.hero-container {
+    padding: 25px 0 25px 0;
+    display: flex;
+}
+
+.hero-content {
+
+    text-align: center;
+}
+
+.img-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url(./images/IMG_1244.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 200px;
+}
+
+/* main */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.info {
+    width: 45%;
+}
+
+.about {
+    width: 50%;
+
+}
+
+p {
+    text-indent: 1.5em;
+    text-align: justify;
+
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 18px;
+
+}
+.skills-list__item h3 {
+    text-align: start;
+}
+
+.summary {
+    padding-bottom: 18px;
+}
+
+.lang-list {
+    padding-bottom: 18px;
+}
+
+
+/* contacts-list */
+.contacts-list {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacts-list__item-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+.lang-list__item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.experiance-list__item-link:hover .item-link__container,
+.experiance-list__item-link:focus .item-link__container {
+    background-color: #30404b15;
+    border: none;
+}
+
+.item-link__container h4 {
+    text-align: center;
+}
+
+.education-list__item p {
+    text-indent: 0;
+}
+
+.certificat {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url(./images/goit.png) no-repeat center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
