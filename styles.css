@@ -7,6 +7,9 @@
 
 body {
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
     font-family: 'Harmattan', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -37,6 +40,7 @@ li {
 
 .container {
     margin: 0 80px;
+    
 }
 
 h1 {
