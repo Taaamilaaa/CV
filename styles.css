@@ -6,7 +6,7 @@
 }
 
 body {
-    margin: 0;    
+    margin: 0;
     font-family: 'Harmattan', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -34,17 +34,10 @@ a {
 li {
     list-style: none;
 }
-.main-container{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .container {
-    margin: 0 80px;
-    max-width: 1040px;
-    margin-left: auto;
-    margin-right: auto;
-    
+    margin: 0 auto;
+    width: 90%;
 }
 
 h1 {
@@ -75,10 +68,10 @@ h3 {
 .hero-container {
     padding: 25px 0 25px 0;
     display: flex;
+    justify-content: center;
 }
 
 .hero-content {
-
     text-align: center;
 }
 
@@ -104,13 +97,11 @@ h3 {
 
 .about {
     width: 50%;
-
 }
 
 p {
     text-indent: 1.5em;
     text-align: justify;
-
 }
 
 .skills-list {
@@ -118,7 +109,6 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
     padding-bottom: 18px;
-
 }
 .skills-list__item h3 {
     text-align: start;
@@ -132,19 +122,15 @@ p {
     padding-bottom: 18px;
 }
 
-
 /* contacts-list */
 .contacts-list {
-
     display: flex;
     flex-direction: column;
-
 }
 
 .contacts-list__item-container {
     display: grid;
     grid-template-columns: 1fr 6fr;
-
 }
 
 .lang-list__item {
@@ -175,7 +161,46 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-svg{
+svg {
     fill: #30404b;
 }
+.mobile-title {
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 
+    .img-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .link-title {
+        display: none;
+    }
+
+    .mobile-title {
+        display: block;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .info {
+        width: 100%;
+    }
+    .about {
+        width: 100%;
+    }
+    .lang-list {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
