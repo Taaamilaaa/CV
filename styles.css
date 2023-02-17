@@ -163,6 +163,8 @@ p {
 }
 svg {
     fill: #30404b;
+    width: 24px;
+    height: 24px;
 }
 .mobile-title {
     display: none;
