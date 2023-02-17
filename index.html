@@ -7,10 +7,6 @@
         <title>CV</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
         <link rel="stylesheet" href="./styles.css" />
     </head>
 
@@ -19,9 +15,11 @@
             <div class="container hero-container">
                 <div class="img-container"></div>
                 <div class="hero-content">
-                    <h1>Tamila Yudina</h1>
-                    <h2>HTML5/CSS3 coder</h2>
-                    <h2>Frontend developer</h2>
+                    <h1 class="lang">Tamila Yudina</h1>
+                    <h2 class="lang">HTML5/CSS3 coder</h2>
+                    <hr>
+                    <h2 class="lang">Frontend developer</h2>
+                    <button type="button" class="lang-btn">en</button>
                 </div>
             </div>
         </header>
@@ -29,18 +27,17 @@
             <div class="main-content">
                 <section class="info">
                     <div class="summary">
-                        <h3>SUMMARY</h3>
-                        <p>
-                            I am a beginner front-end developer who dreams of becoming a
-                            full-fledged part of the team. I am good at HTML, CSS, JavaScript and
-                            React. I also have practical experience of working in a team. I learn
-                            fast, responsible, ready to solve any problems.
+                        <h3 class="lang">SUMMARY</h3>
+                        <p class="lang">
+                            I am a beginner front-end developer, I dream of becoming a full-fledged part of the team. I am well versed in HTML, CSS,
+                            JavaScript and React. I have experience of working in a team. I learn quickly and with pleasure, responsible, ready to
+                            solve any problems.
                         </p>
                     </div>
 
                     <ul class="skills-list">
                         <li class="skills-list__item">
-                            <h3>TECH SKILLS</h3>
+                            <h3 class="lang">TECH SKILLS</h3>
                             <ul>
                                 <li>- HTML5/CSS3;</li>
                                 <li>- JavaScript Es6+;</li>
@@ -58,53 +55,66 @@
                             </ul>
                         </li>
                         <li class="skills-list__item">
-                            <h3>SOFT SKILLS</h3>
+                            <h3 class="lang">SOFT SKILLS</h3>
                             <ul>
-                                <li>- Willingness to learn;</li>
-                                <li>- Positive attitude;</li>
-                                <li>- Effective listening skills;</li>
-                                <li>- Creative thinking skills;</li>
-                                <li>- I work effectively in a team;</li>
-                                <li>- I work effectively in a individually;</li>
-                                <li>- Calm;</li>
-                                <li>- Conscientious;</li>
+                                <li class="lang">- Willingness to learn;</li>
+                                <li class="lang">- Positive attitude;</li>
+                                <li class="lang">- Effective listening skills;</li>
+                                <li class="lang">- Creative thinking skills;</li>
+                                <li class="lang">- I work effectively in a team;</li>
+                                <li class="lang">- I work effectively in a individually;</li>
+                                <li class="lang">- Calm;</li>
+                                <li class="lang">- Conscientious;</li>
                             </ul>
                         </li>
                     </ul>
-                    <h3>LANGUAGES</h3>
+                    <h3 class="lang">LANGUAGES</h3>
                     <ul class="lang-list">
                         <li class="lang-list__item">
-                            <h4>English</h4>
-                            <span>pre-intermediate</span>
+                            <p>
+                                <span class="lang lang-title">English:</span>
+                                <span class="lang">pre-intermediate;</span>
+                            </p>
                         </li>
                         <li class="lang-list__item">
-                            <h4>Russian</h4>
-                            <span>fluent</span>
+                            <p>
+                                <span class="lang lang-title">Russian:</span> <span class="lang">fluent;</span>
+                            </p>
                         </li>
                         <li class="lang-list__item">
-                            <h4>Ukrainian</h4>
-                            <span>native</span>
+                            <p>
+                                <span class="lang lang-title">Ukrainian:</span> <span class="lang">native;</span>
+                            </p>
                         </li>
                     </ul>
 
                     <div>
-                        <h3>CONTACTS</h3>
+                        <h3 class="lang">CONTACTS</h3>
                         <ul class="contacts-list">
                             <li class="contacts-list__item-container">
                                 <!-- <svg>
                                     <use href="./images/sprite.svg#home"></use>
                                 </svg> -->
-                                <svg version="1.1" id="home" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    width="24px" height="24px" viewBox="0 0 330.242 330.242" style="enable-background: new 0 0 330.242 330.242"
-                                    xml:space="preserve">
+                                <svg
+                                    version="1.1"
+                                    id="home"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="24px"
+                                    height="24px"
+                                    viewBox="0 0 330.242 330.242"
+                                    style="enable-background: new 0 0 330.242 330.242"
+                                    xml:space="preserve"
+                                >
                                     <path
                                         d="M324.442,129.811l-41.321-33.677V42.275c0-6.065-4.935-11-11-11h-26c-6.065,0-11,4.935-11,11v14.737l-55.213-44.999
                                 c-3.994-3.254-9.258-5.047-14.822-5.047c-5.542,0-10.781,1.782-14.753,5.019L5.8,129.81c-6.567,5.351-6.173,10.012-5.354,12.314
                                 c0.817,2.297,3.448,6.151,11.884,6.151h19.791v154.947c0,11.058,8.972,20.053,20,20.053h62.5c10.935,0,19.5-8.809,19.5-20.053
                                 v-63.541c0-5.446,5.005-10.405,10.5-10.405h42c5.238,0,9.5,4.668,9.5,10.405v63.541c0,10.87,9.388,20.053,20.5,20.053h61.5
-                                c11.028,0,20-8.996,20-20.053V148.275h19.791c8.436,0,11.066-3.854,11.884-6.151C330.615,139.822,331.009,135.161,324.442,129.811z" />
-                                </svg>                            
-                                <p>Kharkiv, Ukraine</p>
+                                c11.028,0,20-8.996,20-20.053V148.275h19.791c8.436,0,11.066-3.854,11.884-6.151C330.615,139.822,331.009,135.161,324.442,129.811z"
+                                    />
+                                </svg>
+                                <p class="lang">Kharkiv, Ukraine</p>
                             </li>
 
                             <li>
@@ -113,16 +123,20 @@
                                     class="contacts-list__item-container"
                                     target="_blank"
                                 >
-                                <svg>
-                                    <use href="./images/sprite.svg#email"></use>
-                                </svg>
-                                  
+                                    <svg>
+                                        <use href="./images/sprite.svg#email"></use>
+                                    </svg>
+
                                     <p>tamila.yudina@gmail.com</p>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="tel: +380631967820" class="contacts-list__item-container" target="_blank">
+                                <a
+                                    href="tel: +380631967820"
+                                    class="contacts-list__item-container"
+                                    target="_blank"
+                                >
                                     <svg>
                                         <use href="./images/sprite.svg#phone"></use>
                                     </svg>
@@ -135,9 +149,9 @@
                                     class="contacts-list__item-container"
                                     target="_blank"
                                 >
-                                <svg>
-                                    <use href="./images/sprite.svg#github"></use>
-                                </svg>
+                                    <svg>
+                                        <use href="./images/sprite.svg#github"></use>
+                                    </svg>
                                     <p>GitHub</p>
                                 </a>
                             </li>
@@ -147,9 +161,9 @@
                                     class="contacts-list__item-container"
                                     target="_blank"
                                 >
-                               <svg>
-                                <use href="./images/sprite.svg#linkedin"></use>
-                               </svg>
+                                    <svg>
+                                        <use href="./images/sprite.svg#linkedin"></use>
+                                    </svg>
                                     <p>LinkedIn</p>
                                 </a>
                             </li>
@@ -159,7 +173,7 @@
 
                 <section class="about">
                     <div>
-                        <h3>PROJECT EXPERIENCE</h3>
+                        <h3 class="lang">PROJECT EXPERIENCE</h3>
                         <ul class="experiance-list">
                             <li class="experiance-list__item">
                                 <a
@@ -168,17 +182,16 @@
                                     target="_blank"
                                 >
                                     <div class="item-link__container">
-                                        <h4 class="mobile-title">"GIDgroup"</h4>
-                                        <h4 class="link-title">
-                                            "GIDgroup"<br />
-                                            (https://taaamilaaa.github.io/gid_group/)
-                                        </h4>
+                                        <h4 class="link-title">"GIDgroup"</h4>
 
                                         <p>
-                                            "GIDgroup" is a construction company website.The site is
-                                            adaptive to different screen sizes of devices, as well
-                                            as cross-browser. During development I used: CSS, HTM,
-                                            JavaScript, JQuery.
+                                            <span>"GIDgroup"</span>
+                                            <span class="lang">
+                                                is a construction company website.The site is
+                                                adaptive to different screen sizes of devices, as
+                                                well as cross- browser.During development I used:
+                                                CSS, HTM, JavaScript, JQuery.</span
+                                            >
                                         </p>
                                     </div>
                                 </a>
@@ -190,15 +203,14 @@
                                     target="_blank"
                                 >
                                     <div class="item-link__container">
-                                        <h4 class="mobile-title">"Healthy food"</h4>
-                                        <h4 class="link-title">
-                                            "Healthy food"
-                                            <br />(https://taaamilaaa.github.io/healthy_food/)
-                                        </h4>
+                                        <h4 class="link-title">"Healthy food"</h4>
 
                                         <p>
-                                            "Healthy food" is a landing page health food restaurant
-                                            website. In my work I used: HTML, CSS, JavaScript,.
+                                            <span>"Healthy food"</span>
+                                            <span class="lang">
+                                                is a landing page health food restaurant website. In
+                                                my work I used: HTML, CSS, JavaScript.</span
+                                            >
                                         </p>
                                     </div>
                                 </a>
@@ -210,18 +222,18 @@
                                     target="_blank"
                                 >
                                     <div class="item-link__container">
-                                        <h4 class="mobile-title">"VIS"</h4>
-                                        <h4 class="link-title">
-                                            "VIS" <br />
-                                            (https://vis.org.ua)
-                                        </h4>
+                                        <h4 class="link-title">"VIS"</h4>
 
                                         <p>
-                                            "VIS" is a real working multi-page website of a company
-                                            engaged in ventilation and air conditioning systems. The
-                                            customer asked to implement the possibility of switching
-                                            the content of the site from Russian to Ukrainian. In my
-                                            work I used: JavaScript, CSS, HTML.
+                                            <span>"VIS"</span>
+                                            <span class="lang">
+                                                is a real working multi-page website of a company
+                                                engaged in ventilation and air conditioning systems.
+                                                The customer asked to implement the possibility of
+                                                switching the content of the site from Russian to
+                                                Ukrainian. In my work I used: JavaScript, CSS,
+                                                HTML.</span
+                                            >
                                         </p>
                                     </div>
                                 </a>
@@ -234,18 +246,18 @@
                                     target="_blank"
                                 >
                                     <div class="item-link__container">
-                                        <h4 class="mobile-title">"Donut Master Class"</h4>
-                                        <h4 class="link-title">
-                                            "Donut Master Class"
-                                            <br />(https://taaamilaaa.github.io/team__five/")
-                                        </h4>
+                                        <h4 class="link-title">"Donut Master Class"</h4>
 
                                         <p>
-                                            "Donut Master Class" is a team project. The team's task
-                                            included the development of an adaptive landing page. On
-                                            the project, I had the role of a team lead, and was
-                                            involved in the development of styles for the
-                                            background. We used: HTML, SASS, JavaScript, Parsel.
+                                            <span>"Donut Master Class"</span>
+                                            <span class="lang">
+                                                is a team project. The teams task included the
+                                                development of an adaptive landing page. On the
+                                                project, I had the role of a team lead, and was
+                                                involved in the development of styles for the
+                                                background. We used: HTML, SASS, JavaScript,
+                                                Parsel.</span
+                                            >
                                         </p>
                                     </div>
                                 </a>
@@ -257,16 +269,18 @@
                                     target="_blank"
                                 >
                                     <div class="item-link__container">
-                                        <h4 class="mobile-title">"Event booster"</h4>
                                         <h4 class="link-title">
-                                            "Event booster"<br />(https://taaamilaaa.github.io/team__twelve_/)
+                                            "Event booster"
                                         </h4>
 
                                         <p>
-                                            "Event booster" is a page for finding various events in
-                                            different countries of the world. On the project, I had
-                                            the role of a team lead. We used: HTML, SASS,
-                                            JavaScript, REST API, WEBPACK
+                                            <span>"Event booster"</span>
+                                            <span class="lang"
+                                                >is a page for finding various events in different
+                                                countries of the world. On the project, I had the
+                                                role of a team lead. We used: HTML, SASS,
+                                                JavaScript, REST API, WEBPACK</span
+                                            >
                                         </p>
                                     </div>
                                 </a>
@@ -274,16 +288,18 @@
                         </ul>
                     </div>
                     <div>
-                        <h3>EDUCATION</h3>
+                        <h3 class="lang">EDUCATION</h3>
                         <ul>
                             <li class="education-list__item">
-                                <p>2006-2011 | Ukrainian Engineering and Pedagogical Academy</p>
+                                <p class="lang">
+                                    2006-2011 | Ukrainian Engineering and Pedagogical Academy
+                                </p>
                             </li>
                             <li class="education-list__item">
-                                <p>2021-2022 | GoIt Full Stack Developer</p>
+                                <p class="lang">2021-2022 | GoIt Full Stack Developer</p>
                             </li>
                         </ul>
-                        <h3>CERTIFICATE</h3>
+                        <h3 class="lang">CERTIFICATE</h3>
                         <a
                             href="https://drive.google.com/file/d/1afzwnQ-1OnIgHAItb9ooKxX5zMbiJuN1/view?usp=sharing"
                             class="certificat"
@@ -291,15 +307,22 @@
                     </div>
 
                     <div>
-                        <h3>WORK EXPERIENCE</h3>
+                        <h3 class="lang">WORK EXPERIENCE</h3>
                         <ul>
-                            <li>2016-2021 | Sales manager.</li>
-                            <li>2013-2016 | Maternity leave.</li>
-                            <li>2011-2013 | Garment designer assistant</li>
+                            <li class="lang">2016-2021 | Sales manager</li>
+                            <li class="lang">2013-2016 | Maternity leave</li>
+                            <li class="lang">2011-2013 | Garment designer assistant</li>
                         </ul>
                     </div>
                 </section>
             </div>
         </main>
     </body>
+    <script src="./js/index.js" type="module"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.43/polyfill.min.js"
+        integrity="sha512-lvWiOP+aMKHllm4THsjzNleVuGOh0WGniJ3lgu/nvCbex1LlaQSxySUjAu/LTJw9FhnSL/PVYoQcckg1Q03+fQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
 </html>

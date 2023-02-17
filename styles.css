@@ -7,10 +7,9 @@
 
 body {
     margin: 0;
-    font-family: 'Harmattan', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
     background-color: antiquewhite;
 }
 
@@ -25,10 +24,17 @@ ul {
     margin: 0;
     padding: 0;
 }
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #586f6b;
+}
 
 a {
     text-decoration: none;
     color: inherit;
+}
+html{
+    font-size: 20px;
 }
 
 li {
@@ -74,6 +80,9 @@ h3 {
 .hero-content {
     text-align: center;
 }
+.hero-content h2:last-of-type{
+ margin-bottom: 20px;
+}
 
 .img-container {
     width: 200px;
@@ -109,6 +118,11 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
     padding-bottom: 18px;
+    
+    
+}
+.skills-list ul{
+    letter-spacing: -0.05rem;
 }
 .skills-list__item h3 {
     text-align: start;
@@ -119,9 +133,34 @@ p {
 }
 
 .lang-list {
+    width: fit-content;
     padding-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.lang-title{
+    font-size: 1.2rem;
+    color:#586f6b;
+    margin-right: 15px;
+}
+.lang-btn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    font-weight: 100;
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: #586f6b;
+    color: rgb(155, 158, 158);
+    transition: transform .6s ease, color .6s ease;
+    border-radius: 3px;
+}
+.lang-btn:hover{
+    transform: scale(1.1);
+    color: white;
+}
 /* contacts-list */
 .contacts-list {
     display: flex;
@@ -131,13 +170,12 @@ p {
 .contacts-list__item-container {
     display: grid;
     grid-template-columns: 1fr 6fr;
+    margin-bottom: 0.3rem;
 }
 
-.lang-list__item {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+li.experiance-list__item{
+    margin-bottom: 1rem;
 }
-
 .experiance-list__item-link:hover .item-link__container,
 .experiance-list__item-link:focus .item-link__container {
     background-color: #30404b15;
@@ -166,9 +204,11 @@ svg {
     width: 24px;
     height: 24px;
 }
-.mobile-title {
-    display: none;
+
+.item-link__container h4{
+    color: #586f6b;
 }
+
 @media only screen and (max-width: 800px) {
     .hero-container {
         flex-direction: column;
@@ -181,13 +221,12 @@ svg {
         margin-left: auto;
         margin-right: auto;
     }
-    .link-title {
-        display: none;
+    html{
+        font-size: 18px;
     }
+ 
 
-    .mobile-title {
-        display: block;
-    }
+   
 }
 @media only screen and (max-width: 480px) {
     .main-content {
@@ -201,8 +240,8 @@ svg {
         width: 100%;
     }
     .lang-list {
-        display: block;
+        /* display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
     }
 }
