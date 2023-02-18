@@ -11,39 +11,36 @@ function getLocalLang() {
     if (localStorage.getItem('lang') === null) {
         localStorage.setItem('lang', 'en');
         button.innerText = 'en';
-
         return;
     } else if (localStorage.getItem('lang') === 'uk') {
         button.innerText = 'uk';
         content.forEach(el => {
             data.forEach(dataEl => {
-                if (el.innerText.trim() === dataEl.en.trim()) {
+                if (el.innerText === dataEl.en) {
                     el.innerText = dataEl.uk;
                 }
             });
         });
 
         return;
-    } else if (localStorage.getItem('lang') === 'ru') {
-        button.innerText = 'ru';
-        content.forEach(el => {
-            data.forEach(dataEl => {
-                if (
-                    el.textContent.trim() === dataEl.uk.trim() ||
-                    el.textContent.trim() === dataEl.en.trim() ||
-                    el.textContent.trim() === dataEl.en.trim()
-                ) {
-                    el.innerHTML = dataEl.ru;
-                }
-            });
-        });
-        return;
     } else if (localStorage.getItem('lang') === 'en') {
         button.innerText = 'en';
         content.forEach(el => {
             data.forEach(dataEl => {
-                if (el.textContent.trim() === dataEl.ru.trim()) {
-                    el.innerHTML = dataEl.en;
+                if (el.innerText.trim() === dataEl.en.trim()) {
+                    el.innerText = dataEl.en;
+                }
+            });
+        });
+        return;
+    } else if (localStorage.getItem('lang') === 'ru') {
+        button.innerText = 'ru';
+
+        content.forEach(el => {
+            console.log(el.innerText);
+            data.forEach(dataEl => {
+                if (el.innerText.trim() === dataEl.en.trim()) {
+                    el.innerText = dataEl.ru;
                 }
             });
         });
@@ -74,7 +71,7 @@ const langChange = lang => {
         content.forEach(el => {
             data.forEach(dataEl => {
                 if (el.textContent.trim() === dataEl.uk.trim()) {
-                    el.innerHTML = dataEl.ru;
+                    el.innerText = dataEl.ru;
                 }
             });
         });
@@ -84,7 +81,7 @@ const langChange = lang => {
         content.forEach(el => {
             data.forEach(dataEl => {
                 if (el.textContent.trim() === dataEl.ru.trim()) {
-                    el.innerHTML = dataEl.en;
+                    el.innerText = dataEl.en;
                 }
             });
         });

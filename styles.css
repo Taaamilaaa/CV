@@ -208,6 +208,9 @@ svg {
 .item-link__container h4{
     color: #586f6b;
 }
+.project-title{
+    background-color: #586f6b31;
+}
 
 @media only screen and (max-width: 800px) {
     .hero-container {
