@@ -141,9 +141,9 @@ export const data = [
         ru: 'это реально работающий многостраничный сайт компании, занимающейся системами вентиляции и кондиционирования. Заказчик попросил реализовать возможность переключения контента сайта с русского на украинский. В своей работе я использовала: JavaScript, CSS, HTML.',
     },
     {
-        en: 'is a team project. The teams task included the development of a responsive landing page. On the project, I had the role of a team lead, and was involved in the development of styles for the background. We used: HTML, SASS, JavaScript, Parsel.',
-        uk: 'це командний проект. В завдання команди входила розробка адаптивної цільової сторінки. На проекті я виконувала роль лідером команди та брала участь у розробці стилів для фону. Ми використовували: HTML, SASS, JavaScript, Parsel.',
-        ru: 'это командный проект. В задачу команды входила разработка адаптивного лендинга. На проекте у меня была роль тимлида, и я занимался разработкой стилей для фона. Мы использовали:  HTML, SASS, JavaScript, Parsel.',
+        en: 'is a team project. The teams task included the development of a responsive landing page. On the project, I had the role of a team lead, and helped team members solve their problems. We used: HTML, SASS, JavaScript, Parsel.',
+        uk: 'це командний проект. В завдання команди входила розробка адаптивної цільової сторінки. На проекті я виконувала роль тімліда, та допомогала членам команди вирішувати їх задачі. Ми використовували: HTML, SASS, JavaScript, Parsel.',
+        ru: 'это командный проект. В задачу команды входила разработка адаптивного лендинга. На проекте у меня была роль тимлида, и помогала членам команды решать их задачи. Мы использовали:  HTML, SASS, JavaScript, Parsel.',
     },
     {
         en: 'is a responsive site for searching for various events in different countries of the world. For the convenience of using the site, filtering by country is implemented. Information is received and displayed dynamically. My role in this project is a team leader, it was completed at a high level, on time. We used: HTML, SASS, JavaScript, REST API, axios, notiflix, tui-pagination, WEBPACK.',
