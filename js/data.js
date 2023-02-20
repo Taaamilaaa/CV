@@ -127,7 +127,7 @@ export const data = [
     },
     {
         en: 'adaptive website for a construction company. For the convenience of users, a form has been created to collect information about the future object, a mask was also used to enter a phone number. Developed with: CSS, HTM, JavaScript, jQuery, toastify-js.',
-        uk: 'адаптивний сайт для будівельної компанії. Для зручності має форму, для збору інформації про майбутній об\'єкт, також використовувалась маска для введення номера телевона. Під час розробки я використовував: CSS, HTM, JavaScript, JQuery та toastify-js.',
+        uk: 'адаптивний сайт для будівельної компанії. Для зручності має форму, для збору інформації про майбутній об\'єкт, також використовувалась маска для введення номера телевона. Під час розробки я використовувавла: CSS, HTM, JavaScript, JQuery та toastify-js.',
         ru: 'адаптивный сайт для строительной компании. Для удобства пользователей создана форма для сбора информации про будущий объект, так же использовалась маска для ввода номера телеффона. При разработке использовались: CSS, HTM, JavaScript, JQuery, toastify-js.',
     },
     {
