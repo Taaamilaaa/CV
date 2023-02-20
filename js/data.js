@@ -147,8 +147,8 @@ export const data = [
     },
     {
         en: 'is a responsive site for searching for various events in different countries of the world. For the convenience of using the site, filtering by country is implemented. Information is received and displayed dynamically. My role in this project is a team leader, it was completed at a high level, on time. We used: HTML, SASS, JavaScript, REST API, axios, notiflix, tui-pagination, WEBPACK.',
-        uk: 'це адаптивний сайт для пошуку різноманітних подій у різних країнах світу. Для зручності користування сайтом реалізована фільтрація по країнам. Інформаця приходить та відображаються динамічно. Моя роль у цьому проекті - тимлід, він був виконаний на високому рівні, вчасно. Ми використовували: HTML, SASS, JavaScript, REST API, axios, notiflix, tui-pagination, WEBPACK.',
-        ru: 'это адаптивный сайт для поиска различных событий в разных странах мира. Для удобства пользования сайтом реализована фильтрация по странам. Информация поступает и отображается динамически. Моя роль в данном проекте - тимлид, он был выполнен на высоком уровне, в срок. Мы использовали: HTML, SASS, JavaScript, REST API, axios, notiflix, tui-pagination, WEBPACK.',
+        uk: 'це адаптивний сайт для пошуку різноманітних подій у різних країнах світу. Для зручності користування сайтом реалізована фільтрація по країнам. Інформаця приходить та відображаються динамічно. Моя роль у цьому проекті - тимлід, робота була виконана на високому рівні, вчасно. Ми використовували: HTML, SASS, JavaScript, REST API, axios, notiflix, tui-pagination, WEBPACK.',
+        ru: 'это адаптивный сайт для поиска различных событий в разных странах мира. Для удобства пользования сайтом реализована фильтрация по странам. Информация поступает и отображается динамически. Моя роль в данном проекте - тимлид, работа была выполнена на высоком уровне, в срок. Мы использовали: HTML, SASS, JavaScript, REST API, axios, notiflix, tui-pagination, WEBPACK.',
     },
     {
         en: 'EDUCATION',
